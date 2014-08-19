@@ -31,7 +31,7 @@ dreamhost dns info when our ip has changed.
 
 ### Installation/configuration:
 
-Edit the first lines in `dns.ip.sh` with the paths used to store this files
+Edit the first lines in `dns.ip.sh` with the paths used to store these files
 and include the Dreamhost API key. You can get one from 
 https://panel.dreamhost.com/?tree=home.api
 and it must be of the type `dns-*` (All dns functions).
