@@ -3,7 +3,7 @@
 # get a dreamhost api key from https://panel.dreamhost.com/?tree=home.api
 # it must be of the type dns-* (All dns functions)
 
-# change DREAMHOST_API_KEY, PATH_TO_A_WRITABLE_FILE, PATH_TO_THE_PHP_SCRIPT
+# change DREAMHOST_API_KEY, PATH_TO_A_WRITABLE_FILE and PATH_TO_THE_PHP_SCRIPT
 # to their proper values, and DOMAINS with _your_ domains
 # and have fun
 
