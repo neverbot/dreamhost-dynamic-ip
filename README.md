@@ -4,7 +4,7 @@ dreamhost-dynamic-ip
 Shell script to run in a local server with dynamic ip, to update the 
 dreamhost dns info when our ip has changed.
 
-Three files here:
+### Three files here:
 
 * `dns.ip.sh`: The shell script which should be run in the local server. 
   Give it execution permissions and include it in the crontab file:
@@ -28,6 +28,8 @@ Three files here:
   
 * `last_ip.txt`: not really needed, here the last ip used is stored. 
   For future use.
+
+### Installation/configuration:
 
 Edit the first lines in dns.ip.sh with the paths used to store this files
 and include the Dreamhost API key. You can get one from 
