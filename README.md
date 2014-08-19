@@ -32,7 +32,7 @@ dreamhost dns info when our ip has changed.
 ### Installation/configuration:
 
 Edit the first lines in `dns.ip.sh` with the paths used to store these files
-and include the Dreamhost API key. You can get one from 
+and include the *Dreamhost API key*. You can get one from 
 https://panel.dreamhost.com/?tree=home.api
 and it must be of the type `dns-*` (All dns functions).
 
@@ -41,7 +41,7 @@ dreamhost panel, of course. Go to
 https://panel.dreamhost.com/index.cgi?tree=domain.manage
 select the domain managed by dreamhost which you want to use and click in 
 its "DNS" link under the domain name. You could add new ones in the 
-"Add a custom DNS record to" section (must be of type A), or even use/update
+"_Add a custom DNS record to_" section (must be of _Type A_), or even use/update
 the main one, so it's not mandatory to have anything stored/hosted in dreamhost.
 
 
